@@ -11,7 +11,7 @@ func GetMysqlNewConn(dsn string) *sqlx.DB {
 	return GetNewConn("mysql", dsn)
 }
 
-func GetPostgreNewConn(dsn string) *sqlx.DB {
+func GetPostgresNewConn(dsn string) *sqlx.DB {
 	return GetNewConn("postgres", dsn)
 }
 
