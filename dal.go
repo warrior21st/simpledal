@@ -1,4 +1,4 @@
-package dal
+package simpledal
 
 import (
 	"database/sql"
